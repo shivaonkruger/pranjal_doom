@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manga Search</h1>
+    <input type="text" id="searchBox" placeholder="Search for a manga...">
+
+<!-- // do something so someone can have the exact volume by the search of it and the whole manga name suggestion as well , volume by volume
+// rn only mvp, later do something that people can seemlessly view the manga online, by each volume. -->
+
+
+    <button onclick="searchManga()">Search</button>
+
+    <div id="mangaDisplay">
+        <h2 id="mangaName"></h2>
+        <img id="mangaPoster" src="" alt="Manga Poster">
+        <p id="mangaDescription"></p> <!-- Added this -->
+        <a id="downloadLink" href="" target="_blank">Download</a>
+    </div>
+
+    <h2>All Manga</h2>
+    <div id="mangaList" class="manga-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
